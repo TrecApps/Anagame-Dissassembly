@@ -1,7 +1,6 @@
 
 #include <TFormatReader.h>
 #include "AnagameEnvironment.h"
-#include <TFile.h>
 #include <TContainerVariable.h>
 #include <cassert>
 
@@ -166,83 +165,17 @@ void UserProfileEnvironment::RetrieveResourceListSub(TDataArray<TrecPointer<TVar
 
 UserProfileEnvironment::UserProfileEnvironment()
 {
-	//TString file(GetDirectoryWithSlash(CentralDirectories::cd_User) + L".Anagame");
 
-	//ForgeDirectory(file);
-
-	//TrecPointer<TFileShell> targetFile = TFileShell::GetFileInfo(file + w + L"settings.json");
-
-	//if (!targetFile.Get())
-	//{
-	//	TrecPointer<TFileShell> userSettingsDirectory = TFileShell::GetFileInfo(file);
-	//	assert(userSettingsDirectory.Get() && userSettingsDirectory->IsDirectory());
-
-	//	TFile creat(userSettingsDirectory, L"settings.json", TFile::t_file_create_always | TFile::t_file_write);
-
-	//}
-	//else
-	//{
-	//	TrecPointer<TFormatReader> reader = TFormatReader::GetReader(targetFile);
-	//	assert(reader.Get());
-	//	TString message(reader->Read());
-	//	if (message.GetSize())
-	//		return;
-	//	TrecPointer<TVariable> data = reader->GetData();
-
-	//	assert(data.Get() && data->GetVarType() == var_type::json);
-	//	TrecPointer<TJsonVariable> jData = TrecPointerKey::ConvertPointer<TVariable, TJsonVariable>(data);
-	//	TString fieldName;
-	//	
-	//	for (UINT Rust = 0; jData->RetrieveFieldAt(Rust, fieldName, data); Rust++)
-	//	{
-	//		this->SetProperty(fieldName, data);
-	//	}
-	//}
 }
 
 UserProfileEnvironment::~UserProfileEnvironment()
 {
-	//TrecPointer<TVariable> vProps = TrecPointerKey::GetNewSelfTrecPointerAlt<TVariable, TJsonVariable>();
-	//TrecPointer<TJsonVariable> props = TrecPointerKey::ConvertPointer<TVariable, TJsonVariable>(vProps);
 
-	//TDataEntry<TrecPointer<TVariable>> entry;
-	//for (UINT Rust = 0; properties.GetEntryAt(Rust, entry); Rust++)
-	//	props->SetField(entry.key, entry.object);
-
-
-	//TString file(GetDirectoryWithSlash(CentralDirectories::cd_User) + L".Anagame" + w + L"settings.json");
-
-	//TrecPointer<TFileShell> targetFile = TFileShell::GetFileInfo(file);
-	//assert(targetFile.Get());
-	//TrecPointer<TFormatReader> reader = TFormatReader::GetReader(targetFile);
-	//assert(reader.Get());
-
-	//reader->Write(vProps);
-	
 }
 
 void UserProfileEnvironment::SaveProperties()
 {
-	//TString file(GetDirectoryWithSlash(CentralDirectories::cd_User) + L".Anagame");
 
-	//ForgeDirectory(file);
-
-	//TrecPointer<TFileShell> targetFile = TFileShell::GetFileInfo(file + w + L"settings.json");
-
-	//TrecPointer<TFormatReader> writer = TFormatReader::GetReader(targetFile);
-
-	//if (!writer.Get())
-	//	return;
-	//TrecPointer<TVariable> propsVar = TrecPointerKey::GetNewSelfTrecPointerAlt<TVariable, TJsonVariable>();
-	//TrecPointer<TJsonVariable> jsonProps = TrecPointerKey::ConvertPointer<TVariable, TJsonVariable>(propsVar);
-
-	//TDataEntry<TrecPointer<TVariable>> varEntry;
-	//for (UINT Rust = 0; properties.GetEntryAt(Rust, varEntry); Rust++)
-	//{
-	//	jsonProps->SetField(varEntry.key, varEntry.object);
-	//}
-
-	//writer->Write(propsVar);
 }
 
 TrecPointer<TObject> AppDataEnvironment::RetrieveResource(const TString& name)
@@ -256,58 +189,12 @@ void AppDataEnvironment::RetrieveResourceListSub(TDataArray<TrecPointer<TVariabl
 
 AppDataEnvironment::AppDataEnvironment()
 {
-	//TString file(GetDirectoryWithSlash(CentralDirectories::cd_AppData) + L"Anagame");
 
-	//ForgeDirectory(file);
-
-	//TrecPointer<TFileShell> targetFile = TFileShell::GetFileInfo(file + w + L"settings.json");
-
-	//if (!targetFile.Get())
-	//{
-	//	TrecPointer<TFileShell> userSettingsDirectory = TFileShell::GetFileInfo(file);
-	//	assert(userSettingsDirectory.Get() && userSettingsDirectory->IsDirectory());
-
-	//	TFile creat(userSettingsDirectory, L"settings.json", TFile::t_file_create_always | TFile::t_file_write);
-
-	//}
-	//else
-	//{
-	//	TrecPointer<TFormatReader> reader = TFormatReader::GetReader(targetFile);
-	//	assert(reader.Get());
-	//	TString message(reader->Read());
-	//	if (message.GetSize())
-	//		return;
-	//	TrecPointer<TVariable> data = reader->GetData();
-
-	//	assert(data.Get() && data->GetVarType() == var_type::json);
-	//	TrecPointer<TJsonVariable> jData = TrecPointerKey::ConvertPointer<TVariable, TJsonVariable>(data);
-	//	TString fieldName;
-
-	//	for (UINT Rust = 0; jData->RetrieveFieldAt(Rust, fieldName, data); Rust++)
-	//	{
-	//		this->SetProperty(fieldName, data);
-	//	}
-	//}
 }
 
 AppDataEnvironment::~AppDataEnvironment()
 {
-	//TrecPointer<TVariable> vProps = TrecPointerKey::GetNewSelfTrecPointerAlt<TVariable, TJsonVariable>();
-	//TrecPointer<TJsonVariable> props = TrecPointerKey::ConvertPointer<TVariable, TJsonVariable>(vProps);
 
-	//TDataEntry<TrecPointer<TVariable>> entry;
-	//for (UINT Rust = 0; properties.GetEntryAt(Rust, entry); Rust++)
-	//	props->SetField(entry.key, entry.object);
-
-
-	//TString file(GetDirectoryWithSlash(CentralDirectories::cd_User) + L"Anagame" + w + L"settings.json");
-
-	//TrecPointer<TFileShell> targetFile = TFileShell::GetFileInfo(file);
-	////assert(targetFile.Get());
-	//TrecPointer<TFormatReader> reader = TFormatReader::GetReader(targetFile);
-	////sassert(reader.Get());
-
-	////reader->Write(vProps);
 }
 
 AGProjectEnvironment::AGProjectEnvironment(const TString& name, TrecActivePointer<TFileShell> directory)
