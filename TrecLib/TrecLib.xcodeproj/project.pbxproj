@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CCB259028DEC7F700C605E8 /* TString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB257328DEC7F600C605E8 /* TString.h */; };
+		1CCB259128DEC7F700C605E8 /* TFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB257428DEC7F600C605E8 /* TFile.h */; };
+		1CCB259228DEC7F700C605E8 /* TrecPointer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB257528DEC7F600C605E8 /* TrecPointer.cpp */; };
+		1CCB259328DEC7F700C605E8 /* BaseTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB257628DEC7F600C605E8 /* BaseTypes.h */; };
+		1CCB259428DEC7F700C605E8 /* TObjectNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB257728DEC7F600C605E8 /* TObjectNode.cpp */; };
+		1CCB259528DEC7F700C605E8 /* TObjectVariable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB257828DEC7F600C605E8 /* TObjectVariable.cpp */; };
+		1CCB259628DEC7F700C605E8 /* TcRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB257928DEC7F600C605E8 /* TcRunner.h */; };
+		1CCB259728DEC7F700C605E8 /* TObjectNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB257A28DEC7F600C605E8 /* TObjectNode.h */; };
+		1CCB259828DEC7F700C605E8 /* TObjectVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB257B28DEC7F600C605E8 /* TObjectVariable.h */; };
+		1CCB259928DEC7F700C605E8 /* TcRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB257C28DEC7F600C605E8 /* TcRunner.cpp */; };
+		1CCB259A28DEC7F700C605E8 /* TString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB257D28DEC7F700C605E8 /* TString.cpp */; };
+		1CCB259B28DEC7F700C605E8 /* TContainerVariable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB257E28DEC7F700C605E8 /* TContainerVariable.cpp */; };
+		1CCB259C28DEC7F700C605E8 /* TTypeVariable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB257F28DEC7F700C605E8 /* TTypeVariable.cpp */; };
+		1CCB259D28DEC7F700C605E8 /* FileFunctions.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258028DEC7F700C605E8 /* FileFunctions.hpp */; };
+		1CCB259E28DEC7F700C605E8 /* TContainerVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258128DEC7F700C605E8 /* TContainerVariable.h */; };
+		1CCB259F28DEC7F700C605E8 /* TFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB258228DEC7F700C605E8 /* TFile.cpp */; };
+		1CCB25A028DEC7F700C605E8 /* TPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB258328DEC7F700C605E8 /* TPoint.cpp */; };
+		1CCB25A128DEC7F700C605E8 /* TEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258428DEC7F700C605E8 /* TEnvironment.h */; };
+		1CCB25A228DEC7F700C605E8 /* TEnvironment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB258528DEC7F700C605E8 /* TEnvironment.cpp */; };
+		1CCB25A328DEC7F700C605E8 /* TDataArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258628DEC7F700C605E8 /* TDataArray.h */; };
+		1CCB25A428DEC7F700C605E8 /* FileFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB258728DEC7F700C605E8 /* FileFunctions.cpp */; };
+		1CCB25A528DEC7F700C605E8 /* TrecLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258828DEC7F700C605E8 /* TrecLib.h */; };
+		1CCB25A628DEC7F700C605E8 /* TTypeVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258928DEC7F700C605E8 /* TTypeVariable.h */; };
+		1CCB25A728DEC7F700C605E8 /* TObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258A28DEC7F700C605E8 /* TObject.h */; };
+		1CCB25A828DEC7F700C605E8 /* TDataMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258B28DEC7F700C605E8 /* TDataMap.h */; };
+		1CCB25A928DEC7F700C605E8 /* TObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CCB258C28DEC7F700C605E8 /* TObject.cpp */; };
+		1CCB25AA28DEC7F700C605E8 /* TPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258D28DEC7F700C605E8 /* TPoint.h */; };
+		1CCB25AB28DEC7F700C605E8 /* TLinkedList.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258E28DEC7F700C605E8 /* TLinkedList.h */; };
+		1CCB25AC28DEC7F700C605E8 /* TrecPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCB258F28DEC7F700C605E8 /* TrecPointer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CCB256C28DEC77F00C605E8 /* libTrecLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTrecLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCB257328DEC7F600C605E8 /* TString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TString.h; sourceTree = "<group>"; };
+		1CCB257428DEC7F600C605E8 /* TFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFile.h; sourceTree = "<group>"; };
+		1CCB257528DEC7F600C605E8 /* TrecPointer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrecPointer.cpp; sourceTree = "<group>"; };
+		1CCB257628DEC7F600C605E8 /* BaseTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTypes.h; sourceTree = "<group>"; };
+		1CCB257728DEC7F600C605E8 /* TObjectNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TObjectNode.cpp; sourceTree = "<group>"; };
+		1CCB257828DEC7F600C605E8 /* TObjectVariable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TObjectVariable.cpp; sourceTree = "<group>"; };
+		1CCB257928DEC7F600C605E8 /* TcRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcRunner.h; sourceTree = "<group>"; };
+		1CCB257A28DEC7F600C605E8 /* TObjectNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TObjectNode.h; sourceTree = "<group>"; };
+		1CCB257B28DEC7F600C605E8 /* TObjectVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TObjectVariable.h; sourceTree = "<group>"; };
+		1CCB257C28DEC7F600C605E8 /* TcRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TcRunner.cpp; sourceTree = "<group>"; };
+		1CCB257D28DEC7F700C605E8 /* TString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TString.cpp; sourceTree = "<group>"; };
+		1CCB257E28DEC7F700C605E8 /* TContainerVariable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TContainerVariable.cpp; sourceTree = "<group>"; };
+		1CCB257F28DEC7F700C605E8 /* TTypeVariable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TTypeVariable.cpp; sourceTree = "<group>"; };
+		1CCB258028DEC7F700C605E8 /* FileFunctions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileFunctions.hpp; sourceTree = "<group>"; };
+		1CCB258128DEC7F700C605E8 /* TContainerVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TContainerVariable.h; sourceTree = "<group>"; };
+		1CCB258228DEC7F700C605E8 /* TFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TFile.cpp; sourceTree = "<group>"; };
+		1CCB258328DEC7F700C605E8 /* TPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TPoint.cpp; sourceTree = "<group>"; };
+		1CCB258428DEC7F700C605E8 /* TEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEnvironment.h; sourceTree = "<group>"; };
+		1CCB258528DEC7F700C605E8 /* TEnvironment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEnvironment.cpp; sourceTree = "<group>"; };
+		1CCB258628DEC7F700C605E8 /* TDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDataArray.h; sourceTree = "<group>"; };
+		1CCB258728DEC7F700C605E8 /* FileFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileFunctions.cpp; sourceTree = "<group>"; };
+		1CCB258828DEC7F700C605E8 /* TrecLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrecLib.h; sourceTree = "<group>"; };
+		1CCB258928DEC7F700C605E8 /* TTypeVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTypeVariable.h; sourceTree = "<group>"; };
+		1CCB258A28DEC7F700C605E8 /* TObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TObject.h; sourceTree = "<group>"; };
+		1CCB258B28DEC7F700C605E8 /* TDataMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDataMap.h; sourceTree = "<group>"; };
+		1CCB258C28DEC7F700C605E8 /* TObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TObject.cpp; sourceTree = "<group>"; };
+		1CCB258D28DEC7F700C605E8 /* TPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPoint.h; sourceTree = "<group>"; };
+		1CCB258E28DEC7F700C605E8 /* TLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLinkedList.h; sourceTree = "<group>"; };
+		1CCB258F28DEC7F700C605E8 /* TrecPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrecPointer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CCB256A28DEC77F00C605E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CCB256328DEC77F00C605E8 = {
+			isa = PBXGroup;
+			children = (
+				1CCB257628DEC7F600C605E8 /* BaseTypes.h */,
+				1CCB258728DEC7F700C605E8 /* FileFunctions.cpp */,
+				1CCB258028DEC7F700C605E8 /* FileFunctions.hpp */,
+				1CCB257E28DEC7F700C605E8 /* TContainerVariable.cpp */,
+				1CCB258128DEC7F700C605E8 /* TContainerVariable.h */,
+				1CCB257C28DEC7F600C605E8 /* TcRunner.cpp */,
+				1CCB257928DEC7F600C605E8 /* TcRunner.h */,
+				1CCB258628DEC7F700C605E8 /* TDataArray.h */,
+				1CCB258B28DEC7F700C605E8 /* TDataMap.h */,
+				1CCB258528DEC7F700C605E8 /* TEnvironment.cpp */,
+				1CCB258428DEC7F700C605E8 /* TEnvironment.h */,
+				1CCB258228DEC7F700C605E8 /* TFile.cpp */,
+				1CCB257428DEC7F600C605E8 /* TFile.h */,
+				1CCB258E28DEC7F700C605E8 /* TLinkedList.h */,
+				1CCB258C28DEC7F700C605E8 /* TObject.cpp */,
+				1CCB258A28DEC7F700C605E8 /* TObject.h */,
+				1CCB257728DEC7F600C605E8 /* TObjectNode.cpp */,
+				1CCB257A28DEC7F600C605E8 /* TObjectNode.h */,
+				1CCB257828DEC7F600C605E8 /* TObjectVariable.cpp */,
+				1CCB257B28DEC7F600C605E8 /* TObjectVariable.h */,
+				1CCB258328DEC7F700C605E8 /* TPoint.cpp */,
+				1CCB258D28DEC7F700C605E8 /* TPoint.h */,
+				1CCB258828DEC7F700C605E8 /* TrecLib.h */,
+				1CCB257528DEC7F600C605E8 /* TrecPointer.cpp */,
+				1CCB258F28DEC7F700C605E8 /* TrecPointer.h */,
+				1CCB257D28DEC7F700C605E8 /* TString.cpp */,
+				1CCB257328DEC7F600C605E8 /* TString.h */,
+				1CCB257F28DEC7F700C605E8 /* TTypeVariable.cpp */,
+				1CCB258928DEC7F700C605E8 /* TTypeVariable.h */,
+				1CCB256D28DEC77F00C605E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CCB256D28DEC77F00C605E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CCB256C28DEC77F00C605E8 /* libTrecLib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CCB256828DEC77F00C605E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCB259828DEC7F700C605E8 /* TObjectVariable.h in Headers */,
+				1CCB25A328DEC7F700C605E8 /* TDataArray.h in Headers */,
+				1CCB25A128DEC7F700C605E8 /* TEnvironment.h in Headers */,
+				1CCB259328DEC7F700C605E8 /* BaseTypes.h in Headers */,
+				1CCB25AA28DEC7F700C605E8 /* TPoint.h in Headers */,
+				1CCB259628DEC7F700C605E8 /* TcRunner.h in Headers */,
+				1CCB259028DEC7F700C605E8 /* TString.h in Headers */,
+				1CCB25A528DEC7F700C605E8 /* TrecLib.h in Headers */,
+				1CCB259128DEC7F700C605E8 /* TFile.h in Headers */,
+				1CCB259728DEC7F700C605E8 /* TObjectNode.h in Headers */,
+				1CCB25AB28DEC7F700C605E8 /* TLinkedList.h in Headers */,
+				1CCB25A628DEC7F700C605E8 /* TTypeVariable.h in Headers */,
+				1CCB25A828DEC7F700C605E8 /* TDataMap.h in Headers */,
+				1CCB259D28DEC7F700C605E8 /* FileFunctions.hpp in Headers */,
+				1CCB25AC28DEC7F700C605E8 /* TrecPointer.h in Headers */,
+				1CCB259E28DEC7F700C605E8 /* TContainerVariable.h in Headers */,
+				1CCB25A728DEC7F700C605E8 /* TObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CCB256B28DEC77F00C605E8 /* TrecLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CCB257028DEC77F00C605E8 /* Build configuration list for PBXNativeTarget "TrecLib" */;
+			buildPhases = (
+				1CCB256828DEC77F00C605E8 /* Headers */,
+				1CCB256928DEC77F00C605E8 /* Sources */,
+				1CCB256A28DEC77F00C605E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrecLib;
+			productName = TrecLib;
+			productReference = 1CCB256C28DEC77F00C605E8 /* libTrecLib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CCB256428DEC77F00C605E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1CCB256B28DEC77F00C605E8 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 1CCB256728DEC77F00C605E8 /* Build configuration list for PBXProject "TrecLib" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CCB256328DEC77F00C605E8;
+			productRefGroup = 1CCB256D28DEC77F00C605E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CCB256B28DEC77F00C605E8 /* TrecLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CCB256928DEC77F00C605E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCB259C28DEC7F700C605E8 /* TTypeVariable.cpp in Sources */,
+				1CCB25A428DEC7F700C605E8 /* FileFunctions.cpp in Sources */,
+				1CCB259228DEC7F700C605E8 /* TrecPointer.cpp in Sources */,
+				1CCB259A28DEC7F700C605E8 /* TString.cpp in Sources */,
+				1CCB259428DEC7F700C605E8 /* TObjectNode.cpp in Sources */,
+				1CCB259928DEC7F700C605E8 /* TcRunner.cpp in Sources */,
+				1CCB25A028DEC7F700C605E8 /* TPoint.cpp in Sources */,
+				1CCB259B28DEC7F700C605E8 /* TContainerVariable.cpp in Sources */,
+				1CCB259F28DEC7F700C605E8 /* TFile.cpp in Sources */,
+				1CCB25A228DEC7F700C605E8 /* TEnvironment.cpp in Sources */,
+				1CCB259528DEC7F700C605E8 /* TObjectVariable.cpp in Sources */,
+				1CCB25A928DEC7F700C605E8 /* TObject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CCB256E28DEC77F00C605E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1CCB256F28DEC77F00C605E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1CCB257128DEC77F00C605E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1CCB257228DEC77F00C605E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CCB256728DEC77F00C605E8 /* Build configuration list for PBXProject "TrecLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCB256E28DEC77F00C605E8 /* Debug */,
+				1CCB256F28DEC77F00C605E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CCB257028DEC77F00C605E8 /* Build configuration list for PBXNativeTarget "TrecLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCB257128DEC77F00C605E8 /* Debug */,
+				1CCB257228DEC77F00C605E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CCB256428DEC77F00C605E8 /* Project object */;
+}
