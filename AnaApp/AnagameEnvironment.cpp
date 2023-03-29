@@ -303,11 +303,11 @@ AppDataEnvironment::~AppDataEnvironment()
 	TString file(GetDirectoryWithSlash(CentralDirectories::cd_User) + L"Anagame" + w + L"settings.json");
 
 	TrecPointer<TFileShell> targetFile = TFileShell::GetFileInfo(file);
-	assert(targetFile.Get());
+	//assert(targetFile.Get());
 	TrecPointer<TFormatReader> reader = TFormatReader::GetReader(targetFile);
-	assert(reader.Get());
+	//sassert(reader.Get());
 
-	reader->Write(vProps);
+	//reader->Write(vProps);
 }
 
 AGProjectEnvironment::AGProjectEnvironment(const TString& name, TrecActivePointer<TFileShell> directory)
